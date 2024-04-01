@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #242333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+#wrapper{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    background-color: #444451;
+    height: 50px;
+    width: 200px;
+    margin: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.row{
+    display: inline-block;
+    text-align: center;
+}

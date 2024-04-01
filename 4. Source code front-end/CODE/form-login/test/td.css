@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    padding-left: 40%;
+    text-align: center;
+    max-width: 600px;
+}
+main{
+    max-width: 500px;
+}
+header{
+    background-color: green;
+    max-width: 100%;
+    padding-bottom: 5%;
+}
+.active{
+    font-weight: bold; 
+    text-decoration: none;
+    color: green;
+    background-color: #e6f3e6;
+    padding: 10px 5px 10px 10px;
+    margin: 20px;
+}
+.images{
+    background-color: #e6f3e6;
+}
+.title{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 150px;
+    display: flex;
+    border: 3px solid  orange;
+    border-radius: 0%   ;
+}
+.right{
+    text-align: left;
+    display: flex;
+}   
+.left{
+        margin-left: 180px;
+        margin-top: 90px;
+        
+}
